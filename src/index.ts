@@ -180,6 +180,7 @@ export interface WASM2LuaOptions {
     heapBase?: string;
     pureLua?: boolean;
     libMode?: boolean;
+    vanillaLua?: boolean;
     jmpStreamThreshold?: number;
     maxPhantomNesting?: number;
     minify?: 0 | 1 | 2 | 3;
